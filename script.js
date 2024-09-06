@@ -17,7 +17,6 @@ function gimmeWeather(cityID) {
 
     request.onreadystatechange = function() { 
         if (request.readyState == 4 && request.status == 200) {
-            console.log(this.responseText);
             let weatherJson = JSON.parse(this.responseText);
             outputBox.innerHTML = "Current weather: " + doCapitalize(weatherJson.weather[0].description.split('')) + "<br>Current temperature: " + weatherJson.main.temp + "<br>Feels like: " + weatherJson.main.feels_like + "<br>Humidity: " + weatherJson.main.humidity;
         }
