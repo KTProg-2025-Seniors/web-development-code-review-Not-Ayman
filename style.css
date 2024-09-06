@@ -1,3 +1,28 @@
-body {
+main {
+    width: 1000px;
+    background-color: #f5dba6;
+    min-height: 500px;
+    margin: auto;
     text-align: center;
+    color: lightseagreen;
+}
+body {
+    background-image: url(https://images2.alphacoders.com/526/526621.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 90px;
+}
+p {
+    font-size: 20px;
+}
+footer {
+    width: 800px;
+    background-color: #f5dba6;
+    min-height: 100px;
+    margin: auto;
+    text-align: center;
+    color: lightseagreen;
+    font-size: 10px;
 }
