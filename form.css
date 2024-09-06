@@ -1,0 +1,11 @@
+﻿body
+{
+    background-color: darkgrey;
+}
+main {
+    background-color: bisque;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
