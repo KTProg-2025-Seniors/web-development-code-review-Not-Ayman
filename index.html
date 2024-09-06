@@ -16,12 +16,13 @@
         <p>Here at Tawca Travel&#8482;, we specialize in getting you wherever you want to go.</p>
         <br/>
         <p>Select travel package</p>
-        <select name="package" id="packsel">
-            <option value="none">select</option>
+        <select name="package" id="packsel" onchange="handleDropDown()">
+            <option value="none" selected>select</option>
             <option value="Berlin" >Berlin</option>
             <option value="Paris">Paris</option>
             <option value="London">London</option>
         </select>
+        <div id="daWeather"></div>
     </main>
     <br /><br />
     <footer>
