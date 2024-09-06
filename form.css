@@ -1,11 +1,13 @@
 ﻿body
 {
     background-color: darkgrey;
+    padding: 100px;
 }
 main {
     background-color: bisque;
-    height: 400px;
-    width: 1000px;
+    height: 260px;
+    width: 600px;
     margin: auto;
     text-align: center;
+    padding: 70px 30px;
 }

@@ -1,7 +1,7 @@
 main {
     width: 1000px;
     background-color: #f5dba6;
-    min-height: 500px;
+    min-height: 1000px;
     margin: auto;
     text-align: center;
     color: lightseagreen;
@@ -9,12 +9,13 @@ main {
 nav {
     width: 1250px;
     background-color: bisque;
-    min-height: 50px;
+    height: 18px;
     margin: auto;
     text-align: center;
     color: lightseagreen;
     position: sticky;
     top: 0;
+    padding: 16px 0px;
 }
 body, html {
     margin: 0;
@@ -27,14 +28,14 @@ p {
     font-size: 20px;
 }
 footer {
-    width: 770px;
+    width: 700px;
     background-color: #f5dba6;
-    min-height: 70px;
+    min-height: 73px;
     margin: auto;
     text-align: center;
     color: lightseagreen;
     font-size: 10px;
-    padding: 30px;
+    padding: 30px 0px;
 }
 #backg {
     width: 100%;
@@ -45,4 +46,20 @@ footer {
     position: fixed;
     z-index: -1;
     padding: 100px;
+}
+a:link {
+    color: lightseagreen;
+    text-decoration: none;
+}
+a:visited {
+    color: lightseagreen;
+    text-decoration: none;
+}
+a:hover {
+    color: darkcyan;
+    text-decoration: none;
+}
+a:active {
+    color: firebrick;
+    text-decoration: none;
 }
